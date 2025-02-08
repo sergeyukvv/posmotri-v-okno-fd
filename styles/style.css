@@ -66,7 +66,6 @@ ol {
   display: flex;
   align-items: start;
   justify-content: space-between;
-  max-height: 54px;
 }
 
 .content__list-container {
@@ -206,7 +205,7 @@ ol {
   height: 15px;
 }
 
-.search-form__checkbox-list:hover {
+.search-form__label:hover:has([type="checkbox"]) {
   text-decoration: underline;
 }
 
